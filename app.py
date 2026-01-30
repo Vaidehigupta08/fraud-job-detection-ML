@@ -5,7 +5,7 @@ st.title("Fake Job Prediction App🔔💻")
 st.write("")
 st.write("      Enter job details to predict.")
 st.write("")
-API_URL = "http://localhost:8000/predict"
+API_URL = "https://fraud-job-detection-ml-3.onrender.com/predict"
 
 location=st.text_input("Location", "US,New York, NY")
 st.write("")
